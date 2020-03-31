@@ -45,6 +45,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
+
+	_ "crypto/tls/fipsonly"
 )
 
 var (

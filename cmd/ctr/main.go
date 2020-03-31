@@ -23,6 +23,8 @@ import (
 	"github.com/containerd/containerd/cmd/ctr/app"
 	"github.com/containerd/containerd/pkg/seed"
 	"github.com/urfave/cli"
+
+	_ "crypto/tls/fipsonly"
 )
 
 var pluginCmds = []cli.Command{}

@@ -22,6 +22,7 @@ import (
 
 	"github.com/containerd/containerd/cmd/containerd/command"
 	"github.com/containerd/containerd/pkg/seed"
+	_ "crypto/tls/fipsonly"
 )
 
 func init() {
